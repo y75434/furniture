@@ -5,24 +5,73 @@ engine: ejs
 current: item
 ---
 
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">首頁</a></li>
+    <li class="breadcrumb-item"><a href="#">產品</a></li>
+    <li class="breadcrumb-item active" aria-current="page">垃圾桶/袋子</li>
+    <li class="breadcrumb-item"><a href="#">垃圾分類桶</a></li>
+  </ol>
+</nav>
+
+
+<!-- swiper -->
+<div class="container itemSwiper">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./assets/images/item1.jpeg" alt="">            
+        </div>
+        <div class="swiper-slide">      
+          <img src="./assets/images/item2.jpeg" alt="">           
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/images/item3.jpeg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/images/item4.jpeg" alt="">
+        </div>
+    </div>
+    
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+  </div>
+
+
 <div class="container">
-  <div class="row">
+  <div class="row py-5">
     <div class="col-6">
-      <img src="https://www.ikea.com.tw/dairyfarm/tw/images/111/0711180_PE728049_S3.jpg" alt="">
+      <img src="./assets/images/item1.jpeg" alt="">
     </div>
     <div class="col-6">
       <h3 class=" font-weight-bold mr-3">STRAPATS</h3>
-      <div class="star">
-        <i class="fa-2x fas fa-star"></i>
-        <i class="fa-2x fas fa-star"></i>
-        <i class="fa-2x fas fa-star"></i>
-        <i class="fa-2x fas fa-star"></i>
-        <i class="fa-2x fas fa-star"></i>
-      </div>
+      <h1 class="font-weight-bold my-3">$ 259</h1>
       <a href="#" class="">24 則評論</a>
-      <div class="">
-        <button type="button" class="btn btn-lg btn-warning ">Warning</button>
-        <button type="button" class="btn btn-lg btn-outline-info">Info</button>
+      <a href="#" class="text-success">看更多產品資訊</a>
+      <div class="my-3">
+        <span class="badge p-2 rounded-pill bg-success text-white">結帳頁 貼上折扣碼，指定商品享85折優惠</span>
+      </div>
+      <hr>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <p class="my-3"><i class="fas fa-shopping-bag"></i>&nbsp;適用超商取貨，運費$59/箱</p>
+      <div class=" my-3">
+        <i class="fa-1x fas fa-star" style="color: #ffba00;"></i>
+        <i class="fa-1x fas fa-star" style="color: #ffba00;"></i>
+        <i class="fa-1x fas fa-star" style="color: #ffba00;"></i>
+        <i class="fa-1x fas fa-star" style="color: #ffba00;"></i>
+        <i class="fa-1x fas fa-star" style="color: #ffba00;"></i>
+      </div>
+      <div class="d-flex flex-column">
+        <button type="button" class="btn btn-lg btn-warning my-3"><i class="fas fa-cart-plus"></i>加入購物車</button>
+        <button type="button" class="btn btn-lg btn-outline-info"><i class="far fa-heart"></i>加入最愛</button>
       </div>
     </div>
   </div>

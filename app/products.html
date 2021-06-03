@@ -14,7 +14,7 @@ current: products
     </div>
     <div class="col-12 ">
       <div class=" productsBanner"></div>
-      <img alt="" src="https://www.ikea.com.tw/dairyfarm/tw/uploader/image/1619597692_303.jpg" style="max-width: 100%;">
+      <img alt="" src="./assets/images/allBanner.jpg" style="max-width: 100%;">
     </div>
   </div>
 </div>
@@ -22,7 +22,86 @@ current: products
 
 
 
+<section class="container">
+  <div class="row">
+    <div class="col-12 d-none d-md-block aos-init aos-animate" data-aos="fade-down" data-aos-delay="500">
+      <ul class=" d-flex bg-secondary justify-content-between align-items-center p-3 rounded list-unstyled">
+        <li class="dropdown mr-lg-2 w-100 mb-4 col-4 col-md-3">
+          <button class="btn btn-light dropdown-toggle d-flex btn-block p-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+          </button>
+          <ul class="dropdown-menu flex-column flex-lg-row" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(15px, 58px, 0px);">
+            <li class="">
+              <a class="dropdown-item" href="#">
+                <div class="row">
+                  <div class="col-12">
+                    <p>Bangkok<small class="text-muted">Thailand</small></p>
+                  </div>
+                </div>
+              </a>
+            </li>
 
+           
+          </ul>
+        </li>
+        <li class="">
+          <a class="dropdown-item" href="#">
+            <div class="row">
+              <div class="col-12">
+                <p>Bangkok<small class="text-muted">Thailand</small></p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="dropdown d-flex mr-lg-2 w-100 mb-4 col-4 col-md-3 show">
+          <button class="btn btn-secondary dropdown-toggle  d-flex  bg-light btn-block p-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="true">
+            <span class="material-icons">person</span><span class="text-muted">Guests</span>
+          </button>
+          <ul class="dropdown-menu show" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(15px, 58px, 0px);">
+            <li>
+              <div class="d-flex justify-content-between align-items-center pl-2">
+                <span>Audlt</span>
+                <button class="btn p-0 mr-0 w-0" type="button"> 
+                  <div class="material-icons text-info mr-0">remove</div>
+                </button>
+                <input type="text" class="form-control text-center border-0 w-25" value="1">
+                <button class="btn p-0" type="button">
+                  <div class="material-icons text-info">add</div>
+                </button>
+              </div>
+            </li>
+            <li>
+              <div class="d-flex justify-content-between align-items-center pl-2">
+                <span>Child</span>
+                <button class="btn p-0 mr-0 w-0" type="button"> 
+                  <div class="material-icons text-info mr-0">remove</div>
+                </button>
+                <input type="text" class="form-control text-center border-0 w-25" value="0">
+                <button class="btn p-0" type="button">
+                  <div class="material-icons text-info">add</div>
+                </button>
+              </div>
+            </li>
+            <li>
+              <div class="d-flex justify-content-between align-items-center pl-2">
+                <span>Room</span>
+                <button class="btn p-0 mr-0 w-0" type="button"> 
+                  <div class="material-icons text-info mr-0">remove</div>
+                </button>
+                <input type="text" class="form-control text-center border-0 w-25" value="1">
+                <button class="btn p-0" type="button">
+                  <div class="material-icons text-info">add</div>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="w-100 mb-4 d-none d-md-block">
+          <a href="search.html" type="button" class="btn btn-primary px-4 py-2 font-weight-bold btn-block p-3">SEARCH</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 
 
@@ -34,17 +113,22 @@ current: products
     <li class="col-12 col-md-3">
       <div class="card rounded-0 border-0 text-center text-primary" >
         <div class="cardTop bg-cover">
+          <img src="./assets/images/all1.jpeg" alt="">
         </div>
         <div class="card-body p-3 position-relative">
           <h5 class="card-title text-dark mb-2">EFTERFRÅGAD</h5>
           <small>食物真空保溫罐, 不鏽鋼</small>
+          <p class="salePrice">$ 399</p>
           <p class="card-text text-info text-left mb-2">$ 399</p>
           <div class="d-flex justify-content-around">
             <a class="position-absolute" style="top: 2px; right: 2px;">
               <i class="far fa-heart"></i>
             </a>
-            <span>詳細資訊</span>
-            <span class="text-danger">立即下訂</span>
+            <button type="button" class="btn btn-outline-primary"><i class="far fa-eye"></i><span>快速瀏覽</span></button>
+            <label for="">
+              <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+              <span>比較</span>
+            </label>  
           </div>
         </div>
       </div>
