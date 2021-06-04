@@ -1,0 +1,24 @@
+@charset "UTF-8";
+#navbarToggleExternalContent {
+  /*   全部收起來 */
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform .35s ease;
+  transition: -webkit-transform .35s ease;
+  -o-transition: transform .35s ease;
+  transition: transform .35s ease;
+  transition: transform .35s ease, -webkit-transform .35s ease;
+  display: block;
+  height: 100vh;
+  min-height: 100vh;
+  z-index: 100; }
+
+#navbarToggleExternalContent.menu-show {
+  -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
+  z-index: 100;
+  /*   出現位置 */ }
+
+/*# sourceMappingURL=nav.css.map */

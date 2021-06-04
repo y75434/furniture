@@ -1,0 +1,18 @@
+.pot {
+  background-image: url(../images/pot.jpeg);
+  height: 120px; }
+
+.card-body {
+  height: 200px; }
+
+.salePrice {
+  display: inline-block;
+  padding: .5rem;
+  background-color: #fd0;
+  -webkit-box-shadow: 3px 3px #c00;
+          box-shadow: 3px 3px #c00; }
+
+.itemSW {
+  right: 444px; }
+
+/*# sourceMappingURL=products.css.map */
