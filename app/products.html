@@ -9,10 +9,6 @@ current: products
 <div class="container mb-5">
   <div class="row align-items-center">
     <div class="col-12 ">
-      <h2 class="font-weight-bold mb-1 mb-md-2">快速送達</h2>
-
-    </div>
-    <div class="col-12 ">
       <div class=" productsBanner"></div>
       <img alt="" src="./assets/images/allBanner.jpg" style="max-width: 100%;">
     </div>
@@ -22,83 +18,68 @@ current: products
 
 
 
-<section class="container">
-  <div class="row">
-    <div class="col-12 d-none d-md-block aos-init aos-animate" data-aos="fade-down" data-aos-delay="500">
-      <ul class=" d-flex bg-secondary justify-content-between align-items-center p-3 rounded list-unstyled">
-        <li class="dropdown mr-lg-2 w-100 mb-4 col-4 col-md-3">
-          <button class="btn btn-light dropdown-toggle d-flex btn-block p-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
-          </button>
-          <ul class="dropdown-menu flex-column flex-lg-row" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(15px, 58px, 0px);">
-            <li class="">
-              <a class="dropdown-item" href="#">
-                <div class="row">
-                  <div class="col-12">
-                    <p>Bangkok<small class="text-muted">Thailand</small></p>
-                  </div>
-                </div>
-              </a>
-            </li>
 
-           
-          </ul>
-        </li>
-        <li class="">
-          <a class="dropdown-item" href="#">
-            <div class="row">
-              <div class="col-12">
-                <p>Bangkok<small class="text-muted">Thailand</small></p>
-              </div>
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-12 d-none d-md-block p-0" >
+      <ul class=" d-flex bg-secondary justify-content-between align-items-center p-3 rounded list-unstyled">
+        <li class="d-flex">
+          <div class="dropdown" style="border-right: 1px solid #ced4da;">
+            <button class="btn btn-secondary dropdown-toggle"  type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              單價 <span><i class="fas fa-caret-down"></i></span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">100以下</button>
+              <button class="dropdown-item" type="button">500以下</button>
+              <button class="dropdown-item" type="button">500以上</button>
             </div>
-          </a>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              顏色 <span><i class="fas fa-caret-down"></i></span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">黑</button>
+              <button class="dropdown-item" type="button">白</button>
+              <button class="dropdown-item" type="button">紅</button>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              系列 <span><i class="fas fa-caret-down"></i></span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">A</button>
+              <button class="dropdown-item" type="button">B</button>
+              <button class="dropdown-item" type="button">S</button>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              尺寸 <span><i class="fas fa-caret-down"></i></span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">S</button>
+              <button class="dropdown-item" type="button">M</button>
+              <button class="dropdown-item" type="button">L</button>
+            </div>
+          </div>
         </li>
-        <li class="dropdown d-flex mr-lg-2 w-100 mb-4 col-4 col-md-3 show">
-          <button class="btn btn-secondary dropdown-toggle  d-flex  bg-light btn-block p-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="true">
-            <span class="material-icons">person</span><span class="text-muted">Guests</span>
-          </button>
-          <ul class="dropdown-menu show" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(15px, 58px, 0px);">
-            <li>
-              <div class="d-flex justify-content-between align-items-center pl-2">
-                <span>Audlt</span>
-                <button class="btn p-0 mr-0 w-0" type="button"> 
-                  <div class="material-icons text-info mr-0">remove</div>
-                </button>
-                <input type="text" class="form-control text-center border-0 w-25" value="1">
-                <button class="btn p-0" type="button">
-                  <div class="material-icons text-info">add</div>
-                </button>
-              </div>
-            </li>
-            <li>
-              <div class="d-flex justify-content-between align-items-center pl-2">
-                <span>Child</span>
-                <button class="btn p-0 mr-0 w-0" type="button"> 
-                  <div class="material-icons text-info mr-0">remove</div>
-                </button>
-                <input type="text" class="form-control text-center border-0 w-25" value="0">
-                <button class="btn p-0" type="button">
-                  <div class="material-icons text-info">add</div>
-                </button>
-              </div>
-            </li>
-            <li>
-              <div class="d-flex justify-content-between align-items-center pl-2">
-                <span>Room</span>
-                <button class="btn p-0 mr-0 w-0" type="button"> 
-                  <div class="material-icons text-info mr-0">remove</div>
-                </button>
-                <input type="text" class="form-control text-center border-0 w-25" value="1">
-                <button class="btn p-0" type="button">
-                  <div class="material-icons text-info">add</div>
-                </button>
-              </div>
-            </li>
-          </ul>
+        <li>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              排列方式 <span><i class="fas fa-caret-down"></i></span>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">價格</button>
+              <button class="dropdown-item" type="button">數量</button>
+              <button class="dropdown-item" type="button">最新</button>
+            </div>
+          </div>
         </li>
-        <li class="w-100 mb-4 d-none d-md-block">
-          <a href="search.html" type="button" class="btn btn-primary px-4 py-2 font-weight-bold btn-block p-3">SEARCH</a>
-        </li>
+        
       </ul>
+      
     </div>
   </div>
 </section>
@@ -107,34 +88,119 @@ current: products
 
 
 
-<div class="container mb-5">
-  <h2 class="font-weight-bold text-primary mb-3">所有產品</h2>
+<div class="container my-5">
+  <h2 class="font-weight-bold text-center text-primary mb-3">所有產品</h2>
   <ul class="row">
+    <li  class="col-12 col-md-3">
+      <a href="item.html">
+        <div class="card rounded-0 border-0 text-center text-primary" >
+          <div class="bg-cover">
+            <img src="./assets/images/item1.jpeg" alt="">
+          </div>
+          <div class="card-body p-3 position-relative">
+            <h5 class="card-title text-dark mb-2">STRAPATS</h5>
+            <small>腳踏式垃圾桶, 不鏽鋼</small>
+            <p class="card-text text-dark text-center mb-2">$ 259</p>
+            <div class="d-flex flex-column justify-content-around"> 
+              <button type="button" class="btn btn-outline-primary"><i class="far fa-eye"></i><span>快速瀏覽</span></button>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  比較
+                </label>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </a>
+      
+    </li>
     <li class="col-12 col-md-3">
       <div class="card rounded-0 border-0 text-center text-primary" >
-        <div class="cardTop bg-cover">
+        <div class="bg-cover">
           <img src="./assets/images/all1.jpeg" alt="">
         </div>
         <div class="card-body p-3 position-relative">
           <h5 class="card-title text-dark mb-2">EFTERFRÅGAD</h5>
           <small>食物真空保溫罐, 不鏽鋼</small>
-          <p class="salePrice">$ 399</p>
-          <p class="card-text text-info text-left mb-2">$ 399</p>
-          <div class="d-flex justify-content-around">
-            <a class="position-absolute" style="top: 2px; right: 2px;">
-              <i class="far fa-heart"></i>
-            </a>
+          <p class="card-text text-dark text-center mb-2">$ 399</p>
+          <div class="d-flex flex-column justify-content-around"> 
             <button type="button" class="btn btn-outline-primary"><i class="far fa-eye"></i><span>快速瀏覽</span></button>
-            <label for="">
-              <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-              <span>比較</span>
-            </label>  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                比較
+              </label>
+            </div> 
           </div>
         </div>
       </div>
     </li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li class="col-12 col-md-3">
+      <div class="card rounded-0 border-0 text-center text-primary" >
+        <div class="bg-cover">
+          <img src="./assets/images/ISTAD.jpeg" alt="">
+        </div>
+        <div class="card-body p-3 position-relative">
+          <h5 class="card-title text-dark mb-2">ISTAD</h5>
+          <small>枕頭保潔套, 白色</small>
+          <div class="mb-2">
+            <p class="text-dark salePrice">$ 399</p>
+
+          </div>
+          <div class="d-flex flex-column justify-content-around"> 
+            <button type="button" class="btn btn-outline-primary"><i class="far fa-eye"></i><span>快速瀏覽</span></button>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                比較
+              </label>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="col-12 col-md-3">
+      <div class="card rounded-0 border-0 text-center text-primary" >
+        <div class="bg-cover">
+          <img src="./assets/images/DIREKT.jpeg" alt="">
+        </div>
+        <div class="card-body p-3 position-relative">
+          <h5 class="card-title text-dark mb-2">DIREKT</h5>
+          <small>廚房用具3件組,黑色/不鏽鋼</small>
+          <p class="card-text text-dark text-center mb-2">$ 89</p>
+          <div class="d-flex flex-column justify-content-around"> 
+            <button type="button" class="btn btn-outline-primary"><i class="far fa-eye"></i><span>快速瀏覽</span></button>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                比較
+              </label>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="col-12 col-md-3">
+      <div class="card rounded-0 border-0 text-center text-primary" >
+        <div class="bg-cover">
+          <img src="./assets/images/STÄM.jpeg" alt="">
+        </div>
+        <div class="card-body p-3 position-relative">
+          <h5 class="card-title text-dark mb-2">STÄM</h5>
+          <small>量匙 4件組, 紅色/綠色/藍色</small>
+          <p class="card-text text-dark text-center mb-2">$ 399</p>
+          <div class="d-flex flex-column justify-content-around"> 
+            <button type="button" class="btn btn-outline-primary"><i class="far fa-eye"></i><span>快速瀏覽</span></button>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                比較
+              </label>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </li>
   </ul>
 </div>

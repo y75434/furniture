@@ -6,8 +6,7 @@
 
 
 
-.cardTop{
-  background-image: url(https://www.ikea.com.tw/dairyfarm/tw/images/127/0712766_PE729003_S4.jpg);
+.card-body{
   height: 200px;
 }
 
@@ -16,4 +15,9 @@
   padding: .5rem;
   background-color: #fd0; 
   box-shadow: 3px 3px #c00; 
+}
+
+
+.itemSW{
+  right: 444px;
 }

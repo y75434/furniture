@@ -32,6 +32,7 @@ var swiper = new Swiper('.itemSwiper .swiper-container', {
   slidesPerView: 1,
   spaceBetween: 10,
   loop: true,
+  width:30,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -46,10 +47,19 @@ var swiper = new Swiper('.itemSwiper .swiper-container', {
     },
     768:{
       slidesPerView: 1,
+      width: 1000,
     },
   }
 });
 
 
-//AOS
-AOS.init();
+
+const $menu = $('#navbarToggleExternalContent');
+
+$menu.on('show.bs.collapse', function () {
+  $menu.addClass('menu-show');
+});
+
+$menu.on('hide.bs.collapse', function () {
+  $menu.removeClass('menu-show');
+});

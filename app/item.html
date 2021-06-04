@@ -16,38 +16,39 @@ current: item
 </nav>
 
 
-<!-- swiper -->
-<div class="container itemSwiper">
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="./assets/images/item1.jpeg" alt="">            
-        </div>
-        <div class="swiper-slide">      
-          <img src="./assets/images/item2.jpeg" alt="">           
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/images/item3.jpeg" alt="">
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/images/item4.jpeg" alt="">
-        </div>
-    </div>
-    
-    <!-- 如果需要导航按钮 -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    
-  </div>
+
 
 
 <div class="container">
   <div class="row py-5">
     <div class="col-6">
-      <img src="./assets/images/item1.jpeg" alt="">
+      <!-- swiper -->
+      <div class=" itemSwiper">
+        <div class="swiper-container" style="  height: 500px;">
+          <div class="swiper-wrapper position-absolute" style="left: 0;top: 0;">
+              <div class="swiper-slide" >
+                <img src="./assets/images/item1.jpeg" alt="">            
+              </div>
+              <div class="swiper-slide">      
+                <img src="./assets/images/item2.jpeg" alt="">           
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/item3.jpeg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/item4.jpeg" alt="">
+              </div>
+          </div>
+    
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next itemSW"></div>   
+      </div>
     </div>
     <div class="col-6">
       <h3 class=" font-weight-bold mr-3">STRAPATS</h3>
+      <small>腳踏式垃圾桶, 不鏽鋼</small>
+
       <h1 class="font-weight-bold my-3">$ 259</h1>
       <a href="#" class="">24 則評論</a>
       <a href="#" class="text-success">看更多產品資訊</a>

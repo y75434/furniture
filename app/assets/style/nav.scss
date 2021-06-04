@@ -1,0 +1,18 @@
+
+
+#navbarToggleExternalContent{
+  /*   全部收起來 */
+    transform: translateX(-100%);
+    transition: transform .35s ease;
+    display: block;
+    height: 100vh;
+    min-height: 100vh;
+    z-index: 100;
+
+  }
+  
+  #navbarToggleExternalContent.menu-show{
+    transform: translateX(0%);
+    z-index: 100;
+  /*   出現位置 */
+  }
