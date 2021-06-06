@@ -1,0 +1,62 @@
+---
+title: 登入
+layout: ./app/layout.ejs
+engine: ejs
+current: login
+---
+
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-6">
+      <h2 class="text-center">登入帳戶</h2>
+      <div class="flex justify-content-center">
+        <div class="form-check form-check-inline justify-content-center">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">宜家卡</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">企業卡</label>
+        </div>
+      </div>
+      
+      <hr>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">電子信箱</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="已綁定的電子郵件">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">密碼</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="請輸入密碼">
+        </div>
+        <div class="form-check">
+          <input checked type="checkbox" class="form-check-input " id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">記住我的資料</label>
+        </div>
+        <div class="w-100">
+          <button type="button" class="btn btn-lg btn-success my-3">登入</button>
+        </div>
+        <div class="d-flex justify-content-between">
+          <a href="#">忘記帳號</a>|<a href="#">忘記密碼</a>|<a href="#">註冊流程說明</a>
+        </div>
+      </form>
+    </div>
+    <div class="col-6">
+      <h2 class="">立即註冊成為官網會員！</h2>
+      <hr>
+      <div class="col-12 border">
+        <h5 class="mt-2 text-center">我已經是卡友，綁定線上官網會員</h5>
+        <button type="button" class="btn btn-lg btn-success my-3">立即綁定</button>
+      </div>
+      <div class="col-12 border">
+        <h5 class="mt-2 text-center">尚未成為卡友，立刻註冊</h5>
+        <div class="d-flex">
+          <button type="button" class="btn btn-md btn-success">宜家卡立即註冊</button>
+          <button type="button" class="btn btn-md btn-dark">企業卡立即註冊</button>
+        </div>     
+      </div>
+    </div>
+  </div>
+</div>

@@ -22,9 +22,6 @@ a:hover {
   text-decoration: none;
 }
 
-.fz-1 {
-  font-size: 20px;
-}
 
 small {
   font-size: 14px;
@@ -44,89 +41,7 @@ small {
 
 }
 
-h2 {
-  font-size: 28px;
-
-}
-
-.h2-sm {
-  font-size: 24px;
-
- 
-}
-
-h3 {
-  font-size: 32px;
-}
-
-.h3-sm {
-  font-size: 28px;
-}
-
-h4 {
-  font-size: 24px;
-}
-
-.h4-sm {
-  font-size: 24px;
-
- 
-}
-
-h5 {
-  font-size: 20px;
-}
-
-.h5-sm {
-  font-size: 16px;
-
-  
-}
-
-h6 {
-  font-size: 16px;
-}
 
 
-.banner-subtitle {
-  font-size: 20px;
- 
-}
-.rounded-lg-0 { 
- 
-}
 
-.img-babysitter {
-  bottom: -50px;
-  left: calc( 50% - 50px);
-}
 
-.number {
-  font-size: 28px;
-}
-
-.number-lg {
-  font-size: 48px;
-}
-
-.paragraph {
-  font-size: 20px;
-  line-height: 36px;
-}
-
-.rectangle {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .4);
-  transition: background-color .3s;
-
-  &:hover {
-      background-color: rgba(0, 0, 0, .6);
-  }
-}
-
-.icon-star {
-  line-height: 19px;
-}

@@ -24,14 +24,17 @@ current: products
     <div class="col-12 d-none d-md-block p-0" >
       <ul class=" d-flex bg-secondary justify-content-between align-items-center p-3 rounded list-unstyled">
         <li class="d-flex">
-          <div class="dropdown" style="border-right: 1px solid #ced4da;">
+          <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle"  type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               單價 <span><i class="fas fa-caret-down"></i></span>
             </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <button class="dropdown-item" type="button">100以下</button>
-              <button class="dropdown-item" type="button">500以下</button>
-              <button class="dropdown-item" type="button">500以上</button>
+            <div class="dropdown-menu " aria-labelledby="dropdownMenu2" >
+              <form class="">
+                <div class="form-group px-5 mx-5">
+                  <label class=" px-5 mx-5" for="formControlRange">Example Range input</label>
+                  <input type="range" class="form-control-range px-5 mx-5" id="formControlRange">
+                </div>
+              </form>
             </div>
           </div>
           <div class="dropdown">
@@ -89,7 +92,7 @@ current: products
 
 
 <div class="container my-5">
-  <h2 class="font-weight-bold text-center text-primary mb-3">所有產品</h2>
+  <h2 class="font-weight-bold text-center text-dark mb-3">所有產品</h2>
   <ul class="row">
     <li  class="col-12 col-md-3">
       <a href="item.html">
