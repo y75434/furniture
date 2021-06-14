@@ -1,0 +1,1 @@
+{"version":3,"sources":["page/cart.scss"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,WAAW,EAAA","file":"cart.css","sourcesContent":[".cartImg{\n  height: 80px;\n  width: 80px;\n}\n\n"]}

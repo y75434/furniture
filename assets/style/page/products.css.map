@@ -1,0 +1,1 @@
+{"version":3,"sources":["page/products.scss"],"names":[],"mappings":"AACA;EACE,aAAa,EAAA","file":"products.css","sourcesContent":["\n.card-body{\n  height: 200px;\n}\n\n\n\n"]}

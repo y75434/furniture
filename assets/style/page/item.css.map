@@ -1,0 +1,1 @@
+{"version":3,"sources":["page/item.scss"],"names":[],"mappings":"AACA;EACE,yBAAyB,EAAA;;AAG3B;EACE,cAAc,EAAA;;AAGhB;EACE,WAAW,EAAA","file":"item.css","sourcesContent":["\n.breadcrumb{\n  background-color: #ffffff;\n}\n\n.badge{\n  color: #ffffff;\n}\n\n.itemSW{\n  right: 14px;\n}\n"]}
