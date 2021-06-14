@@ -4,10 +4,11 @@
 
 @import './bootstrap/bootstrap.scss';
 
-@import './custom';
-@import './index';
-@import './products';
-@import './custom.scss';
-@import './nav';
-@import './item';
 
+@import './page/index';
+@import './page/products';
+@import './page/item';
+@import './page/cart';
+
+@import './nav';
+@import './custom';

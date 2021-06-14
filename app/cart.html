@@ -1,0 +1,161 @@
+---
+title: 購物車
+layout: ./app/layout.ejs
+engine: ejs
+current: cart
+---
+
+
+<div class="container">
+  <h2 class="text-center">購物車</h2>
+  <div class="text-center my-3">
+    <span>兩件商品</span>
+    <span>$ 348</span>
+  </div>
+  <div class="row justify-content-end">
+    <div class="col-6 ">
+      <div class="d-flex justify-content-between">
+        <span class="">數量</span>
+        <span> 總額 (未含運送與組裝費) </span>
+      </div>     
+      
+    </div>
+    
+  </div>
+  <div class="row align-items-end py-3">
+    <div class="col-md-6 d-flex">
+      <img class="cartImg" src="./assets/images/item1.jpeg" alt="item">
+
+      <div class="d-flex flex-column">
+        <h5 class="card-title text-dark mb-2">STRAPATS</h5>
+        <small>腳踏式垃圾桶, 不鏽鋼</small>
+        <p class="card-text text-dark  mb-2">$ 259</p>
+      </div>
+      
+    </div>
+    <div class="col-md-6">
+      <div class="d-flex justify-content-between mb-3">
+        <div class=" w-25 d-flex justify-content-between align-items-center border ">
+          <a disabled="disabled" class="p-2"><i class="fas fa-minus"></i></a>
+          <input value="1" type="number" disabled="disabled" class="form-control border-0 text-center my-auto bg-light">
+          <a class=" p-2"><i class="fas fa-plus"></i></a>
+        </div>
+        <div class="h2">$ 259 </div>
+
+      </div>
+      
+    
+      <div class="d-flex justify-content-end align-items-end">
+        <a class="pr-1"><i class="far fa-eye pr-1"></i><span>快速瀏覽</span></a>
+        <a class="pr-1"><i class="far fa-heart pr-1"></i><span>移至我的最愛</span></a>
+        <a class="pr-1"><i class="far fa-trash-alt pr-1"></i><span>移除</span></a>
+
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row align-items-end py-3">
+    <div class="col-md-6 d-flex">
+      <img class="cartImg" src="./assets/images/KLEINIA.jpeg" alt="item">
+
+      <div class="d-flex flex-column">
+        <h5 class="card-title text-dark mb-2">KLEINIA</h5>
+        <small>保鮮袋, 多種尺寸/多種顏色</small>
+        <p class="card-text text-dark  mb-2">$ 89</p>
+      </div>
+      
+    </div>
+    <div class="col-md-6">
+      <div class="d-flex justify-content-between mb-3">
+        <div class=" w-25 d-flex justify-content-between align-items-center border ">
+          <a disabled="disabled" class="p-2"><i class="fas fa-minus"></i></a>
+          <input value="1" type="number" disabled="disabled" class="form-control border-0 text-center my-auto bg-light">
+          <a class=" p-2"><i class="fas fa-plus"></i></a>
+        </div>
+        <div class="h2">$ 89 </div>
+
+      </div>
+      
+    
+      <div class="d-flex justify-content-end align-items-end">
+        <a class="pr-1"><i class="far fa-eye pr-1"></i><span>快速瀏覽</span></a>
+        <a class="pr-1"><i class="far fa-heart pr-1"></i><span>移至我的最愛</span></a>
+        <a class="pr-1"><i class="far fa-trash-alt pr-1"></i><span>移除</span></a>
+
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-end align-items-end">
+    <a class="pr-1"><i class="far fa-trash-alt pr-1"></i><span>移除所有產品</span></a>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row py-5">
+    <ul class="col-md-6 justify-content-around flex-column d-flex">
+      <li class="d-flex align-items-center">
+        <i class="fa-2x fas fa-lock pr-2"></i>
+        <div>
+          <h5>安全購物付款</h5> 
+          <p class="text-muted">我們採用最新SSL保密技術，加密所有個人資料。</p>
+        </div>
+      </li>
+      <li class="d-flex align-items-center">
+        <i class="fa-2x far fa-credit-card pr-2"></i>
+        <div>
+          <h5>付款方法</h5> 
+          <p class="text-muted">我們接受VISA、Master、JCB信用卡付款</p>
+        </div>
+      </li>
+      <li class="d-flex align-items-center">
+        <i class="fa-2x fas fa-lock pr-2"></i>
+        <div>
+          <h5>365天退換貨服務</h5> 
+          <p class="text-muted">我們非常重視顧客是否滿意IKEA的購物體驗，如果你想要改變主意 你可以在365天內退換貨。           
+          </p>
+        </div>
+      </li>
+      <li class="d-flex align-items-center">
+        <i class="fa-2x far fa-envelope pr-2"></i>
+        <div>
+          <h5>聯絡我們</h5> 
+          <p class="text-muted">
+            致電線上購物客服電話：412-8869 # 6，我們將有專人為你處理線上購物相關問題。
+            我們的電話客服服務時間為週一至週日 09:00~18:00，例假日照常服務。
+          </p>
+        </div>
+      </li>
+    </ul>
+    <div class="col-md-6">
+      <div class="my-3">
+        <span class="badge p-2  bg-success text-white">結帳頁貼上折扣碼，指定商品享85折優惠</span>
+      </div>
+      <p class=" font-weight-bold mr-3">要使用線上折扣碼嗎？
+        <a href="#" class="text-success">輸入</a>
+      </p>
+      <hr>
+
+      <small>全部商品：</small> <small>2</small>
+      <small>總重量：</small> <small>1.25 kg</small>
+
+      
+      <hr>
+      <h3>總覽</h3>
+      <div class="d-flex justify-content-between align-items-center">
+        <span>項目總計</span>
+        <span class="h1 font-weight-bold my-3">$ 348</span>
+      </div>
+      
+
+      
+  
+      <div class="d-flex flex-column">
+        <button type="button" class="btn btn-lg btn-warning my-3">
+          下一步
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
