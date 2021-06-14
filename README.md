@@ -5,19 +5,19 @@
 
 - 首頁
 
-https://i.imgur.com/86g3A0z.png
+![image](https://i.imgur.com/86g3A0z.png)
 
 - 單一產品頁
 
-https://i.imgur.com/AHUu3Wx.png
+![image](https://i.imgur.com/AHUu3Wx.png)
 
 - 登入頁
 
-https://i.imgur.com/0HGYVHs.png
+![image](https://i.imgur.com/0HGYVHs.png)
 
 - 購物車頁面
 
-https://i.imgur.com/Qsubluy.png
+![image](https://i.imgur.com/Qsubluy.png)
 
 
 
