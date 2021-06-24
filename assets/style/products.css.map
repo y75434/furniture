@@ -1,1 +1,0 @@
-{"version":3,"sources":["products.scss"],"names":[],"mappings":"AACA;EACE,aAAa,EAAA;;AAGf;EACE,qBAAqB;EACrB,cAAc;EACd,sBAAsB;EACtB,gCAAwB;UAAxB,wBAAwB,EAAA","file":"products.css","sourcesContent":["\n.card-body{\n  height: 200px;\n}\n\n.salePrice {\n  display: inline-block;\n  padding: .5rem;\n  background-color: #fd0; \n  box-shadow: 3px 3px #c00; \n}\n\n\n\n"]}
