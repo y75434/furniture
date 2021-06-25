@@ -32,7 +32,7 @@ var swiper = new Swiper('.itemSwiper .swiper-container', {
   slidesPerView: 1,
   spaceBetween: 10,
   loop: true,
-  width:30,
+  width:300,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -47,7 +47,15 @@ var swiper = new Swiper('.itemSwiper .swiper-container', {
     },
     768:{
       slidesPerView: 1,
+      width: 978,
+    },
+    800:{
+      slidesPerView: 1,
       width: 1000,
+    },
+    990:{
+      slidesPerView: 1,
+      width: 900,
     },
   }
 });
